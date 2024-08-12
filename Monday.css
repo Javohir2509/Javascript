@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+margin-top: 30px;
+}
+
+h4{
+    font-size:  3em;
+    background-color: grey;
+}
+
+label {
+    font-size: 2em;
+
+}
+
+button {
+    padding: 15px;
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+h2 {
+    font-size: 2em;
+}
+
+

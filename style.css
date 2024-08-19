@@ -1,0 +1,37 @@
+/* #myBtn {
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    background-color: grey;
+    color: coral;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 5px 7px 5px red , 7px 8px 7px yellow, 10px 10px 10cap green;
+    border: 1px solid white;
+    cursor: pointer;
+} */
+
+
+body {
+    margin: 0;  
+    background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#clock-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(1px);
+    background-color: hsl(0, 0%, 100%, 0.1);
+    width: 100%;
+}
